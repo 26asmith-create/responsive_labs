@@ -1,0 +1,181 @@
+* {
+     box-sizing: border-box;
+}
+*:before, *:after {
+     box-sizing: inherit;
+
+}
+
+html{
+    font-size: 125%;
+}
+body{
+    background-color:#f4fce3;
+}
+
+p{
+    
+    font-size: 1rem;
+    color:#2C4606;
+     font-family: "Nunito Sans", sans-serif;
+     line-height: 1.8;
+
+    
+}
+
+
+
+h1, h2, h3, h4 {
+    font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1{
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+  font-style: normal;
+    font-size: 3.375rem;
+    color:#74b816;
+    box-shadow: 10px 10px 5px 0px #5c940d(0,0,0,0.75);
+   border: 2px solid #66a80f(11, 130, 160);
+  border-radius: 25px; ;
+ 
+}   
+    
+h2{
+    
+    /* font-family:Trebuchet; */
+    font-size: 2.25rem;
+    color:#74b816;
+    line-height: 2.1;
+
+}
+h3{
+    
+    /* font-family: Arial; */
+    font-size: 1.5rem;
+    color:#74b816
+}
+
+a{
+    text-decoration: none;
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color:#c0eb75;
+
+}
+
+a:hover{
+    color:#2C4606;
+
+}
+
+
+
+a:active{
+    color: #74b816;
+
+}
+        
+hr{
+    border: 0;
+   width: 90%;
+  color:#74b816;
+  background-color:#c0eb75;
+  height:5px;
+}
+
+th{
+    
+    color: #74b816;
+    font-size: 1.2rem;
+    border: 1px #c0eb75;
+
+  }
+
+td{
+    color: #74b816;
+    font-size: 1.1rem;
+    border: 1px #c0eb75;
+
+}
+
+/* emma helped me make a comment is my css file.*/
+
+.class1{
+    color:#74b816;
+
+
+}
+
+.class2{
+    color:#c0eb75;
+
+}
+
+.container{
+    /* width: 56rem; */
+    margin: 3rem auto;
+}
+
+header{
+    border-bottom: 1px dotted #bbbbbb;
+    /* width: 25rem; */
+    margin-bottom: 4rem;
+ 
+}
+
+section{
+    margin-bottom: 3rem;
+}
+
+/* .fancy{
+    background-color: aliceblue;
+    padding: 1rem; 
+    margin: 3rem;
+    border-radius: 1rem;
+    display: inline-block;
+
+}
+.fancy:hover{
+    
+    color:navy;
+    background-color: palevioletred;
+    box-shadow: 5px 10px #888888;
+    transform: scale(1.1);
+    transition: (1s);
+} */
+
+.lilita-one-regular {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav a {
+    background-color: #5c940d;
+    padding: 5px; 
+    margin: 5px;
+    border-radius: 1rem;
+    display: inline-block;
+    color: white;
+}
+
+nav a:hover {
+    color:#5c940d;
+    background-color:#c0eb75;
+    box-shadow: 5px 10px #66a80f;
+    transform: scale(1.1);
+    transition: (1s);
+}
+
+header {
+		position: sticky;
+  		top: -15px;
+		padding-top: 15px;
+		opacity: 1;
+		Background-color: white;
+}
