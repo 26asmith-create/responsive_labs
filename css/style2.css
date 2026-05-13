@@ -34,7 +34,8 @@ h1{
     font-family: "Lilita One", sans-serif;
     font-weight: 400;
   font-style: normal;
-    font-size: 3.375rem;
+    font-size: 2.986rem;
+font-size: clamp(2.986rem, 0.9716161616161618rem + 5.301010101010101vw, 5.61rem);
     color:#74b816;
     box-shadow: 10px 10px 5px 0px #5c940d(0,0,0,0.75);
    border: 2px solid #66a80f(11, 130, 160);
@@ -45,7 +46,8 @@ h1{
 h2{
     
     /* font-family:Trebuchet; */
-    font-size: 2.25rem;
+    font-size: 2.488rem;
+font-size: clamp(2.488rem, 1.1668282828282828rem + 3.4767676767676767vw, 4.209rem);
     color:#74b816;
     line-height: 2.1;
 
@@ -55,6 +57,13 @@ h3{
     /* font-family: Arial; */
     font-size: 1.5rem;
     color:#74b816
+    font-size: 2.074rem;
+font-size: clamp(2.074rem, 1.2426060606060603rem + 2.1878787878787884vw, 3.157rem);
+} 
+
+h4{
+font-size: 1.7244rem;
+font-size: clamp(1.7244rem, 1.2295555555555553rem + 1.3022222222222228vw, 2.369rem);
 }
 
 a{
