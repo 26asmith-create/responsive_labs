@@ -56,9 +56,10 @@ h3{
     
     /* font-family: Arial; */
     font-size: 1.5rem;
-    color:#74b816
-    font-size: 2.074rem;
+     font-size: 2.074rem;
 font-size: clamp(2.074rem, 1.2426060606060603rem + 2.1878787878787884vw, 3.157rem);
+    color:#74b816
+   
 } 
 
 h4{
